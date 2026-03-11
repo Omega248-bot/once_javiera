@@ -13,11 +13,10 @@ Verifico el correo.
 
 En la página principal de GitHub presiona New o el botón + arriba a la derecha (es verde).
 Presiono New repository.
-Ahora llena esto:
+Ahora se llena esto:
 -nombre del proyecto
 descripción (opcional)
 Publico - cualquiera puede verlo
 Private - solo tu
 Marco también:
-Add a README file
 Luego presiona Create repository.
