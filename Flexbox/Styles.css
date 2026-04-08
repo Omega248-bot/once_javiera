@@ -1,0 +1,113 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* === FONDO GENERAL === */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+/* === TARJETA === */
+.tarjeta {
+  width: 320px;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 1);
+}
+
+/* === HEADER === */
+.perfil-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.perfil-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #6366f1;
+  box-shadow: 0 0 10px #6366f1;
+}
+
+.perfil-header strong {
+  font-size: 18px;
+  color: #f9fafb;
+}
+
+.perfil-header span {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* === BIO === */
+.bio {
+  font-size: 14px;
+  color: #cbd5f5;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* === ESTADÍSTICAS === */
+.estadisticas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.estadisticas div {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.estadisticas span {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f1f5f9;
+}
+
+/* === BOTÓN === */
+.botones {
+  text-align: center;
+}
+
+.seguir {
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover épico */
+.seguir:hover {
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
+  box-shadow: 0 0 15px #8b5cf6;
+  transform: scale(1.05);
+}
